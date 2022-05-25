@@ -1,0 +1,323 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Dec 26 17:22:12 2021
+# Process ID: 16052
+# Current directory: D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.runs/synth_1
+# Command line: vivado.exe -log VGA_Test_Patterns_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source VGA_Test_Patterns_Top.tcl
+# Log file: D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.runs/synth_1/VGA_Test_Patterns_Top.vds
+# Journal file: D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source VGA_Test_Patterns_Top.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1138.113 ; gain = 0.000
+Command: synth_design -top VGA_Test_Patterns_Top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11284
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_RX with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_rx.v:24]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_RX with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_rx.v:25]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_RX with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_rx.v:26]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_RX with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_rx.v:27]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_RX with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_rx.v:28]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_TX with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_tx.v:26]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_TX with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_tx.v:27]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_TX with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_tx.v:28]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_TX with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_tx.v:29]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UART_TX with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_tx.v:30]
+WARNING: [Synth 8-2507] parameter declaration becomes local in VGA_Sync_Porch with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/VGA_Sync_Porch.v:32]
+WARNING: [Synth 8-2507] parameter declaration becomes local in VGA_Sync_Porch with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/VGA_Sync_Porch.v:33]
+WARNING: [Synth 8-2507] parameter declaration becomes local in VGA_Sync_Porch with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/VGA_Sync_Porch.v:34]
+WARNING: [Synth 8-2507] parameter declaration becomes local in VGA_Sync_Porch with formal parameter declaration list [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/VGA_Sync_Porch.v:35]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1138.113 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'VGA_Test_Patterns_Top' [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/VGA_top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/clk.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (1#1) [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/clk.v:3]
+INFO: [Synth 8-6157] synthesizing module 'UART_RX' [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_rx.v:15]
+	Parameter CLKS_PER_BIT bound to: 217 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'UART_RX' (2#1) [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_rx.v:15]
+INFO: [Synth 8-6157] synthesizing module 'UART_TX' [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_tx.v:15]
+	Parameter CLKS_PER_BIT bound to: 217 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'UART_TX' (3#1) [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Uart_tx.v:15]
+INFO: [Synth 8-6157] synthesizing module 'Seven_segment_LED_Display_Controller' [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/7_segment_controller.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'Seven_segment_LED_Display_Controller' (4#1) [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/7_segment_controller.v:4]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Sync_Pulses' [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/VGA_Sync_Pulses.v:4]
+	Parameter TOTAL_COLS bound to: 800 - type: integer 
+	Parameter TOTAL_ROWS bound to: 525 - type: integer 
+	Parameter ACTIVE_COLS bound to: 640 - type: integer 
+	Parameter ACTIVE_ROWS bound to: 480 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'VGA_Sync_Pulses' (5#1) [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/VGA_Sync_Pulses.v:4]
+INFO: [Synth 8-6157] synthesizing module 'Test_Pattern_Gen' [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Test_Pattern_Gen.v:23]
+	Parameter VIDEO_WIDTH bound to: 4 - type: integer 
+	Parameter TOTAL_COLS bound to: 800 - type: integer 
+	Parameter TOTAL_ROWS bound to: 525 - type: integer 
+	Parameter ACTIVE_COLS bound to: 640 - type: integer 
+	Parameter ACTIVE_ROWS bound to: 480 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Sync_To_Count' [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Sync_To_Count.v:7]
+	Parameter TOTAL_COLS bound to: 800 - type: integer 
+	Parameter TOTAL_ROWS bound to: 525 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Sync_To_Count' (6#1) [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Sync_To_Count.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'Test_Pattern_Gen' (7#1) [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/Test_Pattern_Gen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Sync_Porch' [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/VGA_Sync_Porch.v:14]
+	Parameter VIDEO_WIDTH bound to: 4 - type: integer 
+	Parameter TOTAL_COLS bound to: 800 - type: integer 
+	Parameter TOTAL_ROWS bound to: 525 - type: integer 
+	Parameter ACTIVE_COLS bound to: 640 - type: integer 
+	Parameter ACTIVE_ROWS bound to: 480 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'VGA_Sync_Porch' (8#1) [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/VGA_Sync_Porch.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_Test_Patterns_Top' (9#1) [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/VGA_top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1138.113 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1138.113 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1138.113 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1138.113 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/constrs_1/imports/test folder/Basys3_Master.xdc]
+Finished Parsing XDC File [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/constrs_1/imports/test folder/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/constrs_1/imports/test folder/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/VGA_Test_Patterns_Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/VGA_Test_Patterns_Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1152.457 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.083 . Memory (MB): peak = 1152.457 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'r_SM_Main_reg' in module 'UART_TX'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              000 |                              000
+            TX_START_BIT |                              001 |                              001
+            TX_DATA_BITS |                              010 |                              010
+             TX_STOP_BIT |                              011 |                              011
+                 CLEANUP |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_SM_Main_reg' using encoding 'sequential' in module 'UART_TX'
+WARNING: [Synth 8-327] inferring latch for variable 'LED_BCD_reg' [D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.srcs/sources_1/imports/test folder/7_segment_controller.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 6     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               10 Bit    Registers := 6     
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 10    
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 13    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   6 Input    8 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 2     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 6     
+	   5 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 8     
+	   5 Input    3 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 5     
+	   6 Input    1 Bit        Muxes := 2     
+	   5 Input    1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:27 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:35 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:39 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:39 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:39 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:39 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:39 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:39 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++----------------------+----------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name           | RTL Name                               | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++----------------------+----------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|VGA_Test_Patterns_Top | VGA_Sync_Porch_Inst/UUT/o_HSync_reg    | 3      | 1     | NO           | NO                 | NO                | 1      | 0       | 
+|VGA_Test_Patterns_Top | VGA_Sync_Porch_Inst/o_Red_Video_reg[0] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|VGA_Test_Patterns_Top | VGA_Sync_Porch_Inst/o_Grn_Video_reg[0] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|VGA_Test_Patterns_Top | VGA_Sync_Porch_Inst/o_Blu_Video_reg[0] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++----------------------+----------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    13|
+|3     |LUT1   |     6|
+|4     |LUT2   |    16|
+|5     |LUT3   |    26|
+|6     |LUT4   |    45|
+|7     |LUT5   |    56|
+|8     |LUT6   |    67|
+|9     |SRL16E |     4|
+|10    |FDCE   |    20|
+|11    |FDRE   |   150|
+|12    |FDSE   |     2|
+|13    |LD     |     5|
+|14    |IBUF   |     3|
+|15    |OBUF   |    26|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:39 . Memory (MB): peak = 1152.457 ; gain = 14.344
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1152.457 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:39 . Memory (MB): peak = 1152.457 ; gain = 14.344
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1152.457 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 5 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1156.430 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  LD => LDCE (inverted pins: G): 5 instances
+
+Synth Design complete, checksum: 1fbfd057
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:56 . Memory (MB): peak = 1156.430 ; gain = 18.316
+INFO: [Common 17-1381] The checkpoint 'D:/xilinix vivado/projects/VGA_Controller/VGA_Controller.runs/synth_1/VGA_Test_Patterns_Top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file VGA_Test_Patterns_Top_utilization_synth.rpt -pb VGA_Test_Patterns_Top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 26 17:23:26 2021...

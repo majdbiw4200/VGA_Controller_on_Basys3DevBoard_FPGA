@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1640528613">
+  <File Type="ROUTE-PWR" Name="VGA_Test_Patterns_Top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="VGA_Test_Patterns_Top.tcl"/>
+  <File Type="BITSTR-MMI" Name="VGA_Test_Patterns_Top.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="VGA_Test_Patterns_Top_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="VGA_Test_Patterns_Top_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="VGA_Test_Patterns_Top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="VGA_Test_Patterns_Top_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="VGA_Test_Patterns_Top_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="VGA_Test_Patterns_Top_opt.dcp"/>
+  <File Type="OPT-DRC" Name="VGA_Test_Patterns_Top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="VGA_Test_Patterns_Top.hwdef"/>
+  <File Type="PWROPT-DCP" Name="VGA_Test_Patterns_Top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="VGA_Test_Patterns_Top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="VGA_Test_Patterns_Top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="VGA_Test_Patterns_Top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="VGA_Test_Patterns_Top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="VGA_Test_Patterns_Top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="VGA_Test_Patterns_Top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="VGA_Test_Patterns_Top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="VGA_Test_Patterns_Top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="VGA_Test_Patterns_Top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="VGA_Test_Patterns_Top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="VGA_Test_Patterns_Top.bin"/>
+  <File Type="PLACE-TIMING" Name="VGA_Test_Patterns_Top_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="VGA_Test_Patterns_Top_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="VGA_Test_Patterns_Top.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="VGA_Test_Patterns_Top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="VGA_Test_Patterns_Top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="VGA_Test_Patterns_Top_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="VGA_Test_Patterns_Top.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="VGA_Test_Patterns_Top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="VGA_Test_Patterns_Top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="VGA_Test_Patterns_Top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="VGA_Test_Patterns_Top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="VGA_Test_Patterns_Top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="VGA_Test_Patterns_Top_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="VGA_Test_Patterns_Top_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="VGA_Test_Patterns_Top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="VGA_Test_Patterns_Top_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="VGA_Test_Patterns_Top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="VGA_Test_Patterns_Top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="VGA_Test_Patterns_Top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="VGA_Test_Patterns_Top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="VGA_Test_Patterns_Top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="VGA_Test_Patterns_Top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="VGA_Test_Patterns_Top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="VGA_Test_Patterns_Top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="VGA_Test_Patterns_Top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="VGA_Test_Patterns_Top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="VGA_Test_Patterns_Top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="VGA_Test_Patterns_Top_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="VGA_Test_Patterns_Top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="VGA_Test_Patterns_Top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="VGA_Test_Patterns_Top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="VGA_Test_Patterns_Top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="VGA_Test_Patterns_Top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="VGA_Test_Patterns_Top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="VGA_Test_Patterns_Top.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="VGA_Test_Patterns_Top_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="VGA_Test_Patterns_Top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="VGA_Test_Patterns_Top.nky"/>
+  <File Type="BITSTR-BMM" Name="VGA_Test_Patterns_Top_bd.bmm"/>
+  <File Type="PDI-FILE" Name="VGA_Test_Patterns_Top.pdi"/>
+  <File Type="RCFI_FILE" Name="VGA_Test_Patterns_Top.rcfi"/>
+  <File Type="CFI_FILE" Name="VGA_Test_Patterns_Top.cfi"/>
+  <File Type="RNPI_FILE" Name="VGA_Test_Patterns_Top.rnpi"/>
+  <File Type="NPI_FILE" Name="VGA_Test_Patterns_Top.npi"/>
+  <File Type="RBD_FILE" Name="VGA_Test_Patterns_Top.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="VGA_Test_Patterns_Top.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="VGA_Test_Patterns_Top.sysdef"/>
+  <File Type="BG-BGN" Name="VGA_Test_Patterns_Top.bgn"/>
+  <File Type="BG-DRC" Name="VGA_Test_Patterns_Top.drc"/>
+  <File Type="RDI-RDI" Name="VGA_Test_Patterns_Top.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/7_segment_controller.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/7_segment_controller.v"/>
+        <Attr Name="ImportTime" Val="1634300882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/Sync_To_Count.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/Sync_To_Count.v"/>
+        <Attr Name="ImportTime" Val="1634300380"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/Test_Pattern_Gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/Test_Pattern_Gen.v"/>
+        <Attr Name="ImportTime" Val="1634300380"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/Uart_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/Uart_rx.v"/>
+        <Attr Name="ImportTime" Val="1634309976"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/Uart_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/Uart_tx.v"/>
+        <Attr Name="ImportTime" Val="1634309976"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/VGA_Sync_Porch.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/VGA_Sync_Porch.v"/>
+        <Attr Name="ImportTime" Val="1634300380"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/VGA_Sync_Pulses.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/VGA_Sync_Pulses.v"/>
+        <Attr Name="ImportTime" Val="1634300380"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/clk.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/clk.v"/>
+        <Attr Name="ImportTime" Val="1630941139"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test folder/VGA_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/VGA_top.v"/>
+        <Attr Name="ImportTime" Val="1634310029"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="VGA_Test_Patterns_Top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/test folder/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../test folder/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1634300882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>
